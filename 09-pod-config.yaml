@@ -6,8 +6,8 @@ spec:
   containers:
   - name: nginx
     image: nginx
-    valueFrom:
-        configMapKeyRef:
+    envFrom:
+    - configMapKeyRef:
           name: myconfig
 
 
