@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: nginx
-  - image: nginx
+    image: nginx
     env:
     - name: course
       value: DevOps
@@ -13,4 +13,3 @@ spec:
       value: "Rajabhushanam yeguru"
     - name: duration
       value: "120 hrs"
-         
