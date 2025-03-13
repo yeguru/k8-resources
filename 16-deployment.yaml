@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: yeguru/deployment:1.0
+        image: yeguru/deployment:2.0
         ports:
         - containerPort: 80
 ---
